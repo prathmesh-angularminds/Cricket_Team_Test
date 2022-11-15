@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.MyTeam {
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.MyTeam_Navbar {
+
+    width: 100%;
+
+    border-bottom: 2px solid gray;
+    box-sizing: border-box;
+    padding: 0.7%;
+}
+
+.MyTeam_MainContainer {
+
+    width: 100%;
+    height: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.MyTeam_PlayerData, .MyTeam_PlayersList {
+
+    width: 49%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.MyTeam_MiddleLine {
+
+    width: 2px;
+    height: 100%;
+
+    background-color: gray;
+}
+
+.MyTeam_BlockTitle {
+
+    width: 100%;
+
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.MyTeam_DataCard, .MyTeam_List {
+
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 2% 3%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.MyTeam_PlayerName {
+
+    width: 100%;
+    height: 45px;
+
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 2% 2%;
+    margin: 10px 0px;
+    border: 2px solid grey;
+    outline: none;
+}
+
+.MyTeam_PlayerType {
+
+    box-sizing: border-box;
+    margin: 5px 0px;
+
+}
+
+.MyTeam_AgeType {
+
+    width: 100%;
+    display: flex;
+}
+
+.MyTeam_Age, .MyTeam_Type {
+    width: 50%;
+
+    box-sizing: border-box;
+}
+
+.MyTeam_Labels {
+
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+}
+
+.MyTeam_Operation {
+
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2px 0px;
+    gap: 10px;
+    margin: 5px 0px;
+}
+
+.MyTeam_DecBtn, .MyTeam_IncBtn {
+
+    width: 25px;
+    height: 25px;
+
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: gray;
+
+    box-sizing: border-box;
+
+}
+
+.MyTeam_AddPlayerBtn {
+
+    box-sizing: border-box;
+    margin: 10px 0px;
+
+}
+
+.MyTeam_List {
+    height: 100%;
+    border: none;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.MyTeam_Title, .MyTeam_TitleV {
+
+    width: 100%;
+
+    display: flex;
+    border-radius: 10px;
+    background-color: #198754;
+
+    box-sizing: border-box;
+    padding: 1.5% 2%;
+}
+
+.MyTeam_Bat, .MyTeam_Bowl {
+
+    cursor: pointer;
+    border-radius: 20px;;
+}
+
+.MyTeam_TitleV {
+
+    background-color: white;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin: 10px 0px;;
+}
+
+.MyTeam_Sr, .MyTeam_Name, .MyTeam_Age1, .MyTeam_Type1, .MyTeam_SrV, .MyTeam_NameV, .MyTeam_Age1V, .MyTeam_Type1V {
+
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.MyTeam_Name, .MyTeam_NameV {
+    width: 55%;
+}
+
+.MyTeam_Type1, .MyTeam_Type1V {
+
+    width: 25%;
+}
+
+.MyTeam_SrV, .MyTeam_NameV, .MyTeam_Age1V, .MyTeam_Type1V {
+
+    color: black;
+}
+
+.MyTeam_Scroller {
+
+    width: 100%;
+    height: 66.5vh;
+
+    display: flex;
+
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 10px 0px;
+
+    overflow: scroll;
+}
+
+.MyTeam_Scroller::-webkit-scrollbar {
+    display: none;
+}
